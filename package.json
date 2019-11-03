@@ -1,0 +1,24 @@
+{
+	"name": "Documentacao-IBGE-Adonisjs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"directory-tree": "^2.2.4",
+		"vuepress": "^1.2.0",
+		"vuepress-sidebar-generator": "^0.1.1",
+		"vuepress-theme-dynamicsidebar": "^1.0.0"
+	},
+	"dependencies": {
+		"glob": "^7.1.5",
+		"lodash": "^4.17.15",
+		"markdown-it-meta": "0.0.1"
+	}
+}
